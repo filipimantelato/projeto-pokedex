@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Pixelify+Sans:wght@400..700&display=swap');
+
+.concert-one-regular{
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pixelify-sans-poke {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Concert One";
+}
+
+body{
+    background: linear-gradient(to right, #DEBAE9, #C9E3E8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin: 20px;
+    letter-spacing: 3px;
+}
+
+.pokeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon{
+    background-color: #EEE;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100,100,100,0.5);
+    margin: 10px;
+    padding: 10px;
+}
+
+.imgContainer{
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
+.imgContainer img{
+    margin-top: 15px;
+}
+
+.infoContainer{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.number{
+    background-color: rgba(0,0,0,0.1);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.name{
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+
+.type{
+    font-size: 14px;
+}
+
+
+
+
