@@ -1,4 +1,4 @@
-# DexProject - Pokédex project for pokémom lovers
+# DexProject - Pokédex project.
 
 #### Basic website to show all pokémons.
 
